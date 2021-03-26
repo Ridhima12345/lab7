@@ -1,0 +1,41 @@
+## Why is list used?
+
+The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items)
+between square brackets.
+Important thing about a list is that items in a list need not be of the same type.
+Lists are mutable,so changes can be made to them after it has been initialized.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+## How do lists and sets differ?
+
+
+Sets — Unordered collections of unique elements
+
+Lists - Ordered collections of elements
+
+Sets allows you to do operations such as intersection, union, difference, and symmetric difference.
+
+Lists are really variable-length arrays, not Lisp-style linked lists. In lists the elements are accessed by indices.
+
+List can be 2-D whereas a set can't.
+
+As list are ordered (IE. have serial number) list are comparatively slow to execute whereas sets are fast.
+
+List in python is like Array of java or c.
+
+Printing a set almost always provide different sequence of output.
+
+Set uses hash function to find an element whereas list is an array. Hence finding element in Set is faster than in list.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+## Application of dictionaries with a real world example.
+
+Example of a dictionary.
+
+If I am working to analyze a bunch of stats for a sports team. 
+All the data is entered by the players numbers. 
+So I query the roster (via AJAX or a database) and store it in playerName = {}.
+Now if I want to present to the user the name of the person, who has an 76% success rate, 
+and I have his playerNum = 87 I can output his name with the dictionary playerName[playerNum]
